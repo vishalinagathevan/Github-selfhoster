@@ -3,7 +3,7 @@ name: My First GitHub Selfhoster Runner
 on: [push]
 
 jobs:
-  build:
+    build:
     runs-on: [self-hosted, windows, x64, gpu]
 
       steps:
